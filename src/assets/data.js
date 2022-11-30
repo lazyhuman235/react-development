@@ -1,0 +1,89 @@
+const data = [
+  {
+    name: "iPhone 14 Pro 128gb Black",
+    color: "Black",
+    storage: 128,
+    price: 799,
+    image: "images/black.png"
+  },
+  {
+    name: "iPhone 14 Pro 256gb Black",
+    color: "Black",
+    storage: 256,
+    price: 899,
+    image: "images/black.png"
+  },
+  {
+    name: "iPhone 14 Pro 512gb Black",
+    color: "Black",
+    storage: 512,
+    price: 999,
+    image: "images/black.png"
+  },
+  {
+    name: "iPhone 14 Pro 128gb White",
+    color: "White",
+    storage: 128,
+    price: 799,
+    image: "images/white.png"
+  },
+  {
+    name: "iPhone 14 Pro 256gb White",
+    color: "White",
+    storage: 256,
+    price: 899,
+    image: "images/white.png"
+  },
+  {
+    name: "iPhone 14 Pro 512gb White",
+    color: "White",
+    storage: 512,
+    price: 999,
+    image: "images/white.png"
+  },
+  {
+    name: "iPhone 14 Pro 128gb Gold",
+    color: "Gold",
+    storage: 128,
+    price: 799,
+    image: "images/gold.png"
+  },
+  {
+    name: "iPhone 14 Pro 256gb Gold",
+    color: "Gold",
+    storage: 256,
+    price: 899,
+    image: "images/gold.png"
+  },
+  {
+    name: "iPhone 14 Pro 512gb Gold",
+    color: "Gold",
+    storage: 512,
+    price: 999,
+    image: "images/gold.png"
+  },
+  {
+    name: "iPhone 14 Pro 128gb Purple",
+    color: "Purple",
+    storage: 128,
+    price: 799,
+    image: "images/purple.png"
+  },
+  {
+    name: "iPhone 14 Pro 256gb Purple",
+    color: "Purple",
+    storage: 256,
+    price: 899,
+    image: "images/purple.png"
+  },
+  {
+    name: "iPhone 14 Pro 512gb Purple",
+    color: "Purple",
+    storage: 512,
+    price: 999,
+    image: "images/purple.png"
+  }
+]
+;
+
+export default data;
