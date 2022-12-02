@@ -22,11 +22,11 @@ function App() {
   const [FavData, setFavData] = useState([])
 
   useEffect(() => {
-    let filteredData = data
+    let filteredData = [...data]
     
     console.log(FilterData)
     if (JSON.stringify(FilterData) === JSON.stringify(defaultfilter))
-    { setProductData(filteredData)
+    { setProductData([...filteredData])
          return }
 
     if (FilterData.color && FilterData.color.length > 0)
